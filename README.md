@@ -1,0 +1,1 @@
+# Report-on-hacking-the-device-and-lifting-privileges-using-Mimikatz-in-Meterpreter
